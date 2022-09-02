@@ -1,0 +1,19 @@
+// Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario. //
+
+
+COLUMNS - DATA TYPE - ATTRIBUTES
+
+
+ID - BIGINT - NOT NULL, AUTO-INCREMENT, UNIQUE
+NOME MODELLO AUTO - VARCHAR(50) - NOT NULL
+PRODUTTORE - VARCHAR(50) - NOT NULL
+KM - INT - NOT NULL
+CONDIZIONI - VARCHAR(50) - NOT NULL
+TIPO DI AUTOVETTURA - VARCHAR(50) - NOT NULL
+has_discount - TYNINT(1) - DEFAULT: 0
+TARGA - CHAR(7) - NOT NULL
+ANNO - YEAR - NOT NULL
+PREZZO - FLOAT(8,2) - NOT NULL
+COLORE - VARCHAR(50) - NULL
+
+
